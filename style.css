@@ -70,3 +70,17 @@ body {
 .hide {
   display: none;
 }
+
+@media only screen and (max-width: 600px) {
+  /* Adjust styles for smaller screens */
+  .game {
+      height: 40vmin;
+      width: 40vmin;
+  }
+
+  .box {
+      height: 12vmin;
+      width: 12vmin;
+      font-size: 5vmin;
+  }
+}
