@@ -4,13 +4,14 @@
 }
 
 body {
-  background-color: #5aa08f;
+  background-color: #548687;
   text-align: center;
 }
 
 .container {
   height: 70vh;
   display: flex;
+
   justify-content: center;
   align-items: center;
 }
@@ -36,18 +37,18 @@ body {
   background-color: #ffffc7;
 }
 
-#reset_btn {
+#reset-btn {
   padding: 1rem;
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   background-color: #191913;
   color: #fff;
   border-radius: 1rem;
   border: none;
 }
 
-#new_btn {
+#new-btn {
   padding: 1rem;
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   background-color: #191913;
   color: #fff;
   border-radius: 1rem;
@@ -58,29 +59,16 @@ body {
   color: #ffffc7;
   font-size: 5vmin;
 }
-.msg-conatiner {
+
+.msg-container {
   height: 100vmin;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   gap: 4rem;
 }
 
 .hide {
   display: none;
-}
-
-@media only screen and (max-width: 600px) {
-  /* Adjust styles for smaller screens */
-  .game {
-      height: 40vmin;
-      width: 40vmin;
-  }
-
-  .box {
-      height: 12vmin;
-      width: 12vmin;
-      font-size: 5vmin;
-  }
 }
